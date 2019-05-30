@@ -1,0 +1,73 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+span {
+  visibility: hidden;
+}
+
+a {
+  color: #00000060;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.symbol {
+  font-family: 'Overpass Mono', monospace;
+}
+
+.name {
+  visibility: visible;
+  color: #519d90dd;
+}
+
+#row-heading {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#row-string {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#string {
+  font-size: 2em;
+}
+
+#email:hover {
+  color: #a54314bb;
+}
+
+#git:hover {
+  color: #24292edd;
+}
+
+#fb:hover {
+  color: #3c5a99;
+}
+
+.mouseover-email {
+  visibility: visible;
+  color: #a54314bb;
+}
+
+.mouseover-git {
+  visibility: visible;
+  color: #24292edd;
+}
+
+.mouseover-fb {
+  visibility: visible;
+  color: #3c5a99;
+}
+
+.hidden {
+  visibility: hidden;
+}
